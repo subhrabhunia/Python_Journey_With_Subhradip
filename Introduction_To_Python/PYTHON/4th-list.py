@@ -1,0 +1,25 @@
+"""List is Mutable
+Allows duplicate values
+Slightly slower than tuples
+Use a list when you need to modify the data, or when you need to store duplicate values."""
+
+x=["HTML","CSS","JavaScript","Python"] #This is a list in Python. A list is a collection of items that are ordered and changeable. The items in a list are enclosed in square brackets [] and separated by commas. In this case, the list x contains four string values: "HTML", "CSS", "JavaScript", and "Python". Lists can hold different data types, including strings, integers, floats, and even other lists. The variable name x is assigned to this list, and it can be used to access or modify the items in the list.
+print(x[1]) #The above line prints the second item in the list x, which is "CSS". In Python, lists are zero-indexed, meaning that the first item in the list has an index of 0, the second item has an index of 1, and so on. The square brackets [] are used to access items in a list by their index. 
+print(x[-1]) #The above line prints the last item in the list x, which is "Python". In Python, negative indexing can be used to access items in a list from the end. The index -1 refers to the last item, -2 refers to the second-to-last item, and so on. The square brackets [] are used to access items in a list by their index.   
+print(x[0:2]) #The above line prints a slice of the list x, which includes the first two items: "HTML" and "CSS". In Python, slicing can be used to access a range of items in a list. The syntax for slicing is list[start:end], where start is the index of the first item to include in the slice (inclusive), and end is the index of the first item to exclude from the slice (exclusive). In this case, the slice starts at index 0 and ends at index 2, so it includes the items at indices 0 and 1. The square brackets [] are used to access items in a list by their index.
+
+
+x[2]="Java" #The above line modifies the third item in the list x to "Java". In Python, lists are zero-indexed, meaning that the first item in the list has an index of 0, the second item has an index of 1, and so on. The square brackets [] are used to access items in a list by their index. 
+print(x) #The above line prints the modified list x, which now contains the items: "HTML", "CSS", "Java", and "Python". The print function is used to display output in Python. After modifying the third item in the list, the new value is reflected when we print the entire list.   
+
+
+number=[10,20,10,40,50] #This is a list in Python. A list is a collection of items that are ordered and changeable. The items in a list are enclosed in square brackets [] and separated by commas. In this case, the list number contains five integer values: 10, 20, 10, 40, and 50. Lists can hold different data types, including strings, integers, floats, and even other lists. The variable name number is assigned to this list, and it can be used to access or modify the items in the list.
+print(number) #print the list number, which contains the items: 10, 20, 10, 40, and 50. The print function is used to display output in Python. The entire list is printed as it is, enclosed in square brackets [] and separated by commas.    
+
+data=[10,"Soumya",35.5,True] #This is a list in Python. A list is a collection of items that are ordered and changeable. The items in a list are enclosed in square brackets [] and separated by commas. In this case, the list data contains four items of different data types: an integer (10), a string ("Soumya"), a float (35.5), and a boolean (True). Lists can hold different data types, including strings, integers, floats, and even other lists. The variable name data is assigned to this list, and it can be used to access or modify the items in the list.
+print(data) #print the list data, which contains the items: 10, "Soumya", 35.5, and True. The print function is used to display output in Python. The entire list is printed as it is, enclosed in square brackets [] and separated by commas.  
+age,name,marks,married=data
+print("Age is :",age) #The above line prints the string "Age is :" followed by the value of the variable age, which is 10. The print function is used to display output in Python. The variable age is assigned the first item in the list data, which is 10.
+print("Name is :",name) #The above line prints the string "Name is :" followed by the value of the variable name, which is "Soumya". The print function is used to display output in Python. The variable name is assigned the second item in the list data, which is "Soumya".
+print("Marks is :",marks) #The above line prints the string "Marks is :" followed by the value of the variable marks, which is 35.5. The print function is used to display output in Python. The variable marks is assigned the third item in the list data, which is 35.5.
+print("Married is :",married) #The above line prints the string "Married is :" followed by the value of the variable married, which is True. The print function is used to display output in Python. The variable married is assigned the fourth item in the list data, which is True.      
