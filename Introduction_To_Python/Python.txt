@@ -1,0 +1,75 @@
+Python is a high level programming Language.It's developed in 1991 by Guido van Rossum.
+
+THE USES OF PYTHON:-
+1.Web Development
+2.Desktop GUI Application Development
+3.Scientific & Numeric Computing
+4.Gaming Development
+5.Artificial Intelligence & Machine Learning
+6.Data Science and Data visualization
+7.Embedded Application
+Automation & Scripting
+
+FEATURES OF PYTHON:-
+1.Easy to learn (Compare with C++,C#,Java)
+2.Free and Open Source
+3.Supported by all major Operating Systems(Windows/MacOS/Linaux)
+4.Interpreted Language
+5.object Oriented Programming Language
+6.GUI Programming Support
+7.High-Level Language
+8.Extensible feature 
+9.Large Standard Library
+10. Dynamically Typed Language
+
+POPULAR LIBRARIES OF PYTHON:-
+Web Development & Frameworks:-
+1.django
+2.Flask
+Game Development:-
+1.pygame
+Desktop GUIs:-
+1.wxpython
+2.Qt
+3.Tkinter
+Data Analysis/Data Science
+1.pandas
+2.NumPy
+3.matplotlib
+Machine Leearning/Artificial Intelligence:-
+1.scikit learn
+2.TensorFlow
+3.PyTorch
+Internet of Things:-
+1.MicroPython
+Embedded Applications:-
+1.Rasberry Pi
+
+WHERE PYTHONUSED IN INDUSTRY:-
+1.Google
+2.Youtube
+3.Netflix
+4.Nasa
+5.Facebook
+6.Instagram
+7.BitTorrent
+8.Spotify
+9.Dropbox
+10.Quora
+
+PYTHON VS OTHERS LANGUAGE:-
+                Python              C++                 Java
+
+Syntax          Easy                Hard                Medium
+
+Learning Curve  Beginner-friendly    Difficult           Moderate
+
+Use Case        Versatile            System-level        Enterprise
+
+PRIOR KNOWLEDGE BEFORE LEARNING PYTHON:-
+1.Computer Basics
+2.Sofware Installation
+Web Development:-
+1.HTML
+2.CSS(Basics)
+3.JavaScript
