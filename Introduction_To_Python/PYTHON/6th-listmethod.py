@@ -17,3 +17,13 @@
 # 3.min(list)
 # 4.list(seq)
 
+"""Example of list method"""
+
+fruits=["Apple","Mango","Banana"]
+fruits.append("Cherry") #In append add new item in last of the list and print a new list.
+print(fruits)
+
+cricketer=["Virat Kohli","MS Dhoni","Rohit Sharma"]
+cricketer.insert(1,"Gautam Gambhir") #In insert we add new item in any position with help of indev number of list.
+print(cricketer)
+
