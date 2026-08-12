@@ -74,5 +74,18 @@ print(x)
 
 """UNIVERSAL METHOD EXAMPLE"""
 food=["Biriyani","Egg Roll","Chawmin","Moglai","Chiken Kosha","Fried rice"]
-x=len(food) #In this method this print total length of the list means how many items present in the list.
+numbers=[10,20,30,40,50,60]
+c=len(food) #In this method this print total length of the list means how many items present in the list.
+x=max(food) #In this method its maximum if the string value then it give the alphabetic order.If numeric then
+y=max(numbers) #the Largest number of the list
+d=min(food) #This is Alphabaticly 
+e=min(numbers) #This print Smallest number of the list.
+print(d)
+print("Minimum:",e)
+print(y)
 print(x)
+print (c)
+
+Colors_Numbers=("Black","Green","White",1,2,3,)
+Colors_list= list(Colors_Numbers) #In this method we convert tuple,set,string values into the list.
+print(Colors_list)
