@@ -55,3 +55,24 @@ tittle=last_name.copy() #In this Copy method this list copy into a new list that
 tittle=list(last_name) #It is also a copy method.
 tittle=last_name[2:] #This is Also copy method but using index number if we print all item in the list then [:].If we want to print from index number 2 then [2:].If we want to print from index nuber 0 to 1 then [0:1] 
 print(tittle)
+
+Student=["Ram","Shayam","Lakshman"]
+boy=["Subhradip","Sayan","Akash"]
+Student.extend(boy) #In this method ww add the second list into first list and create the new list with the same name of first list. In extend method we also add the tuple into the list. All same process.
+print(Student)
+
+city=["Kolkata","Howraha","Delhi","Mumbai","Orrisa","Howraha"]
+x=city.index("Delhi") #In this method we find the index number of the item from the list.If in the list the duplicate item present then it print first item's index number that found.
+# x=city.index("India") if the item not present in list then show error.
+# x=city.index("Howraha",2) If we want to print the last duplicate item name in the list then we gave the parameter number
+# x=city.index("Howraha",2,6) last index number .
+print(x)
+
+x=city.count("Mumbai")  #In this method its count the values of the item means how many times its present in the list.
+print(x)
+
+
+"""UNIVERSAL METHOD EXAMPLE"""
+food=["Biriyani","Egg Roll","Chawmin","Moglai","Chiken Kosha","Fried rice"]
+x=len(food) #In this method this print total length of the list means how many items present in the list.
+print(x)
