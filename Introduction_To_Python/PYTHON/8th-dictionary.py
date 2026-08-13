@@ -10,5 +10,13 @@ student={
     "age":20,
     "city":"Kolkata"
     }
+
+student["gender"]="male" #If we want to any new key value in the dictionary.
+
+student["age"]=21 #If we want to change any key name or value.
+
 print(student) #This print all values of dictionary.
-print(type(student)) #This print all the values.
+print(type(student)) #This print all the values.  
+print(student["name"]) #if we want to see any one key value.This print name.  
+print(student["age"]) #This print age.
+print(student["city"]) #This print city.
