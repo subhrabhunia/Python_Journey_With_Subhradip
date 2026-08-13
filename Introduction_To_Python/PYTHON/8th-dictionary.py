@@ -24,3 +24,9 @@ print(student["name"]) #if we want to see any one key value.This print name.
 print(student["age"]) #This print age.
 print(student["city"]) #This print city.   
 print(student["subject"][1]) #If we want to print any value under specific value in this print under subject index 1 value.
+
+
+#Print Empty Dictionary
+Skills={}
+#Skills=dict() we can also create empty dictionary like this.
+print(Skills)
