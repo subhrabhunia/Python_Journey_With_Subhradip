@@ -29,4 +29,47 @@ print(student["subject"][1]) #If we want to print any value under specific value
 #Print Empty Dictionary
 Skills={}
 #Skills=dict() we can also create empty dictionary like this.
+# Skills=dict(                    #second way to print dictionary.
+#     subject="python",
+#     marks=45
+# )
 print(Skills)
+
+#How to create nested dictionay
+students={
+    "Student1":{
+    "name":"Ram",
+    "age":21
+    },
+
+   "Student2":{
+   "name":"Shayam",
+    "age":21
+    },
+
+  "Student3":{
+    "name":"Riya",
+    "age":21
+    }
+}
+print(students)
+print(students["Student1"]["name"])  #How to print specific values .
+
+#How to print specific values of dictionary using for loop
+book={
+    "names":"python_learning",
+    "author":"Ram",
+    "year":2025
+}
+
+for key,value in book.items(): #Print all value and key one by one.
+    print(key,":",value) 
+for value in book.values(): #Print all value.
+    print(value) 
+
+#Using If Statement
+if "names" in book:
+    print("Key Found")  #Find key Using if statement. 
+
+if "gender" in book:
+    print("Key not found") #If any key not under dictonary then its not print any message.
