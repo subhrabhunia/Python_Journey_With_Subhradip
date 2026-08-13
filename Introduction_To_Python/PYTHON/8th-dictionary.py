@@ -4,3 +4,11 @@
 # 3.Values can be of any data type.
 # 4.Dictionaries are mutable(changeable)
 # 5.Access values using keys.
+
+student={ 
+    "name":"John",
+    "age":20,
+    "city":"Kolkata"
+    }
+print(student) #This print all values of dictionary.
+print(type(student)) #This print all the values.
