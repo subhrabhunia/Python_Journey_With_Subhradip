@@ -21,6 +21,14 @@ student={
     "age":20
 }
 
+text=str(student) #Uses to create dictionary to string.
+print(text)
+print(type(text))
+
+print(len(student)) #print how many keys in dictnory.
+
+
+
 print(student.get("name")) #In get method we print the output that i want.
 print(student.get("city","Not Found"))  #It's print none beacuse city name varriable not avilabe.If we want custome message then add "zcustom message".
 
