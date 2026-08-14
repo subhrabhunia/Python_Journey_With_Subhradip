@@ -36,3 +36,27 @@ keys=["name","age","city"]
 data=dict.fromkeys(keys,"Unknown") #Using fromkeys its create a dictionary and give values automatically."Unknown" use to default message.
 print(data)
 
+# student.pop("age") #its uses to remove what key i want to delete.
+# print(student)
+age=student.pop("age")
+print(age)
+
+print(student.popitem()) #Its remove the last key.
+
+student.clear()
+print(student) #It's  remove all keys.
+
+student.update({"city":"delhi"}) #its use to update or add the key and value in dictionary.
+student.update({"age":25})
+student.update(name="Soumya")
+print(student)
+
+new_student=student.copy() #It's uses to copy the list.
+print(new_student)
+
+
+print(student.setdefault("name"))  #it uses to give the value of the key.
+print(student.setdefault("gender","UNKNOWN")) #print default value.
+print(student)
+
+
