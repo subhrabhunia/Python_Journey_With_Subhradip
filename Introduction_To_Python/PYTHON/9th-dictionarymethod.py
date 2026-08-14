@@ -1,4 +1,4 @@
-"""DICTIONARYN METHODS"""
+"""DICTIONARY METHODS"""
 # 1.get()
 # 2.values()
 # 3.keys()
@@ -14,3 +14,16 @@
 """IN BUILD METHOD"""
 # 1.len(dict)
 # 2.str(dict)
+
+
+student={
+    "name":"Subhradip",
+    "age":20
+}
+
+print(student.get("name")) #In get method we print the output that i want.
+print(student.get("city","Not Found"))  #It's print none beacuse city name varriable not avilabe.If we want custome message then add "zcustom message".
+
+print(student.keys()) #It's shows all keys.
+print(list(student.keys()))  #If we want to show all keys in a list.
+
