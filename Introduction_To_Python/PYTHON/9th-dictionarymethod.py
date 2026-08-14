@@ -27,3 +27,12 @@ print(student.get("city","Not Found"))  #It's print none beacuse city name varri
 print(student.keys()) #It's shows all keys.
 print(list(student.keys()))  #If we want to show all keys in a list.
 
+print(student.items()) #It creates a list under the list create tuple under first tuple it store it first keys and first values and second tuple store second keys and second value.
+
+for key, value in student.items():
+    print(key,":",value)  #Like the items method difference is using for loop.
+
+keys=["name","age","city"]
+data=dict.fromkeys(keys,"Unknown") #Using fromkeys its create a dictionary and give values automatically."Unknown" use to default message.
+print(data)
+
