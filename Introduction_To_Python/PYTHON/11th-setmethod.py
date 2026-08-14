@@ -10,3 +10,9 @@
 # 2.issuperset()
 # 3.isdisjoint()
 # 4.intersection_update()
+
+"""SET MANIPULATION"""
+# 1.len(set)
+# 2.max(set)
+# 3.min(set)
+# 4.set()
