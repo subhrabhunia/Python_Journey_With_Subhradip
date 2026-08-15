@@ -25,10 +25,10 @@ B={3,4,5}
 print(A | B)  # | This symbol represent the union method. Uninon means its combbins two set and create a set but not print duplicate value in double print only one time.
 print(A.union(B))  #It is also a  technique to create union method
 
-print(A&B) # & This symbol means intersection method, Intersection means its print commom values of the two sets.
+print(A & B) # & This symbol means intersection method, Intersection means its print commom values of the two sets.
 print(A.intersection(B)) #It is also a technique to create intersection method.
 
-print(A-B) # - This symbol represent the difference.Its means its print those element whoes are not present in B but present in A.
+print(A - B) # - This symbol represent the difference.Its means its print those element whoes are not present in B but present in A.
 print(B.difference(A)) #It's also a tecnique to print differnce.Its print those element whose present in B but not ptresent in A.
 
 print(A ^ B) # ^ This symbol represnt the symmetric_difference.Its means its print those values/elements those are not common in two sets.
@@ -40,3 +40,21 @@ D={6,7,8,9}
 print(C.issubset(D))  # is subset check that all elements of first set is present in the second set.If set A all elements are present in B then its print B.
 print(D.issubset(C)) #If not present then its print False.
 
+print(C.issuperset(D))  #It's check second set  value is present in first set then give true if not present then false.
+print(D.issuperset(C))  
+
+E={8,9}
+F={2,3}
+G={8,9}
+print(E.isdisjoint(F))  #Its check two set that any one or all element of two sets are same or different.If same then give False if different then give true.
+print(E.isdisjoint(G))
+
+
+numbers=[10,20,30,20,10]   #print list to set.
+unique_Numbers=set(numbers)
+print(unique_Numbers)
+
+print(len(D)) #print length of the set
+
+print(max(D))  #print largest element of set.
+print(min(D))  #print small number of set.
