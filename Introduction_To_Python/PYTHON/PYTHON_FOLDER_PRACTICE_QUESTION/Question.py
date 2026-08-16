@@ -146,9 +146,99 @@ print(data)
 #Answer=[35.5, True].Extended sequence unpacking captures remaining unassigned elements into a standard list.
 
 
-# Question 10
+# Question 20
 # What dictionary is produced by evaluating dict.fromkeys(["a", "b", "c"], 0)?
 result = dict.fromkeys(["a", "b", "c"], 0)
 print(result)
 #Answer={"a": 0, "b": 0, "c": 0}.fromkeys() constructs a dictionary using sequence elements as keys, assigning the specified default value to each key.
+
+
+#Question 21
+#What will be printed to the console when executing the expression print(x * 2 + "3" + "!") given x = "Python"?
+x="Python"
+print(x*2+"3"+"!")
+#Answer=PythonPython3!.The asterisk operator repeats 'Python' twice to give 'PythonPython', and string concatenation appends '3' and '!'.
+
+
+# Question 22
+# What is the data type of the variable result after evaluating result = (5 > 3) == (10 == 10.0)?
+result = (5 > 3) == (10 == 10.0)
+print(result)
+#Answer=<class 'bool'>.Both sub-expressions evaluate to boolean values (True), and comparing them using == yields the boolean True.
+
+
+#Question 23
+#Given items = ["A", "B", "C"], what is the state of items after executing items.insert(1, "D"), items.extend(["E", "F"]), and items.pop(2)?
+items = ["A", "B", "C"]
+items.insert(1, "D")
+items.extend(["E", "F"])
+items.pop(2)
+print(items)
+#Answer=['A', 'D', 'C', 'E', 'F'].insert(1, 'D') produces ['A', 'D', 'B', 'C'], extend adds ['E', 'F'], and pop(2) removes 'B' at index 2.
+
+
+#Question 24
+#Given the tuple tup = ("apple", "banana", "cherry", "apple", "date"), what is returned by tup.index("apple", 2)?
+tup = ("apple", "banana", "cherry", "apple", "date")
+print(tup.index("apple", 2))
+#Answer=3.Searching for 'apple' starting from index 2 finds the second occurrence located at index 3.
+
+
+#Question 25
+#Given info = {"name": "Alex", "age": 25}, what are the return values of info.setdefault("age", 30) and info.setdefault("city", "Delhi") respectively?
+info = {"name": "Alex", "age": 25}
+print(info.setdefault("age", 30))
+print(info.setdefault("city", "Delhi") )
+#Answer=25 and "Delhi".setdefault returns the existing value 25 for existing key 'age', and inserts and returns 'Delhi' for missing key 'city'.
+
+
+# Question 26
+# What happens when executing s.discard(40) followed by s.remove(40) on the set s = {10, 20, 30}?
+# Answer=discard() executes silently, while remove() raises a KeyError.
+# discard() safely ignores missing elements, whereas remove() throws a KeyError when the element is not found.
+
+
+#Question 27
+#Given sets A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, what is the result of evaluating the set expression (A - B) | (B - A)?
+A = {1, 2, 3, 4} 
+B = {3, 4, 5, 6}
+print((A - B) | (B - A))
+#Answer={1, 2, 5, 6}.(Your answer).(A - B) gives {1, 2} and (B - A) gives {5, 6}. The union (|) combines them to produce {1, 2, 5, 6}, which equals A ^ B.
+
+
+#Question 28
+#What is printed to the console when executing print(f"Val: {val * 2}", end=" -> ") followed by print(f"Result: {val + 2}") when val = 5?
+val=5
+print(f"Val: {val * 2}", end=" -> ")
+print(f"Result: {val + 2}")
+#Answer=Val: 10 -> Result: 7.The first print calculates 5 * 2 = 10 and ends with ' -> ', so the second print (5 + 2 = 7) appears on the same line.
+
+
+#Question 29
+#What value is assigned to total after executing this block when a user enters non-numeric text "ten" for input()?
+# try:
+# a = int(input())
+# b = 20
+# except ValueError:
+# a = 10
+# b = 10
+# total = a + b
+try:
+    a = int(input())
+    b = 20
+except ValueError:
+    a = 10
+    b = 10
+total = a + b
+print(total)
+#Answer=20.int("ten") raises a ValueError, jumping to the except block where a = 10 and b = 10, resulting in total = 20.
+
+
+#Question 10
+#What is the output of len(tuple(range(2, 10, 2)))?
+numbers = tuple(range(2, 10, 2))
+print(numbers)
+length = len(numbers)
+print("Length =", length)
+#Answer=4.range(2, 10, 2) generates values 2, 4, 6, and 8, which converts to a 4-element tuple.
 
