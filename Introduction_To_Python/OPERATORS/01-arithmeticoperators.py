@@ -26,3 +26,33 @@
 # //  Floor Division      → Returns integer quotient
 # **  Exponentiation      → Power operation
 
+a=10
+b=20
+result= a+b     #Its refers to Addition operators
+print(result)
+
+c=20
+d=10
+print(c-d)   #Its refers to substractions.
+
+
+e=5
+f=2
+print(e*f)  #Its for maltiplications.
+
+g=10
+h=5
+print(g/h) #for division
+
+i=10
+j=4
+print(i//j)  #for floor division.
+
+k=8
+l=3
+print(k%l)  #Modulus
+
+
+m=2
+n=3
+print(m**n)  #Exponentiation 
