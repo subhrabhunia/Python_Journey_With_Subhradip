@@ -18,3 +18,10 @@
 # 10 % 5   = 0
 # 10 // 3  = 3
 # 2 ** 3   = 8   (2 × 2 × 2)
+# +   Addition            → Adds two numbers
+# -   Subtraction         → Subtracts one number from another
+# *   Multiplication      → Multiplies numbers
+# /   Division            → Returns quotient
+# %   Modulus             → Returns remainder
+# //  Floor Division      → Returns integer quotient
+# **  Exponentiation      → Power operation
