@@ -73,3 +73,140 @@ print(A!=B)
 age=20
 print(age>18)
 # Answer=The >= operator checks if the value of age is greater than or equal to 18. Since 20 is strictly greater than 18, the condition is satisfied, resulting in True.
+
+
+# Question 11
+# In a logical and operation, what is the evaluated result of (5 > 2) and (10 > 5)?
+print((5 > 2) and (10 > 5))
+# Answer=The evaluated result is True[cite: 3]. The 'and' operator returns True if both conditions are True[cite: 3].
+
+
+# Question 12
+# If age=25 and salary=50000, what is the output of print(age>=18 and salary>=30000)?
+age=25
+salary=50000
+print(age>=18 and salary>=30000)
+# Answer=The output is True[cite: 3]. It checks if both conditions match; since both the age and salary conditions are met, it gives True[cite: 3].
+
+
+# Question 13
+# Under what specific condition will the logical or operator return a True result?
+print((5 > 10) or (10 > 5))
+# Answer=The logical 'or' operator returns True if at least one condition is True[cite: 3]. 
+
+
+# Question 14
+# If age1=15 and has_license=True, what is the final output of print(age1>=18 or has_license)?
+age1=15
+has_license=True
+print(age1>=18 or has_license)
+# Answer=The output is True[cite: 3]. If any one condition matches then it gives True; in this case, has_license is True[cite: 3].
+
+
+# Question 15
+# How does the not operator mathematically change the result of the expression not(5 > 2)?
+print(not(5 > 2))
+# Answer=The 'not' operator reverses the result, returning False if the evaluated result is True[cite: 3].
+
+
+# Question 16
+# What condition must be true for the is operator to return True when comparing two variables?
+# Answer=Both variables must point to the same object[cite: 4].
+
+
+# Question 17
+# If x=[10,20,30] and y=[10,20,30], why does print(x is y) return False despite the lists containing the exact same values?
+x=[10,20,30]
+y=[10,20,30]
+print(x is y)
+# Answer=It returns False because the two variables store in different memory locations[cite: 4].
+
+
+# Question 18
+# Why does print(a is b) evaluate to True when the single value variables are set as a=100 and b=100?
+a=100
+b=100
+print(a is b)
+# Answer=It evaluates to True because single values store in the same memory location[cite: 4].
+
+
+# Question 19
+# What does the is not operator check for regarding the memory location of two objects?
+# Answer=The 'is not' operator returns True if both variables point to different objects, meaning they store in different memory locations[cite: 4].
+
+
+# Question 20
+# Given c=[10,20,30] and d=c, what will the expression print(c is not d) output?
+c=[10,20,30]
+d=c
+print(c is not d)
+# Answer=The output is False because the two variables store in the same memory[cite: 4].
+
+
+# Question 21
+# What does the in operator return when checking the string condition "a" in "apple"?
+print("a" in "apple")
+# Answer=It returns True because the value exists in the sequence[cite: 5].
+
+
+# Question 22
+# If a list is defined as numbers=[20,30,10,40], what is the evaluated result of print(80 not in numbers)?
+numbers=[20,30,10,40]
+print(80 not in numbers)
+# Answer=The evaluated result is True[cite: 5].
+
+
+# Question 23
+# In the dictionary student={"name":"John", "age":20}, why does print("John" in student) evaluate to False?
+student={
+    "name":"John",
+    "age":20
+}
+print("John" in student)
+# Answer=It evaluates to False because the 'in' operator checks the keys of the dictionary, not the values[cite: 5].
+
+
+# Question 24
+# If fruits = ["apple", "banana", "mango"], what does the condition print("orange" not in fruits) return?
+fruits = ["apple", "banana", "mango"]
+print("orange" not in fruits)
+# Answer=The condition returns True[cite: 5].
+
+
+# Question 25
+# In the provided image extension script, what specific text prints if ".png" in filename evaluates to True?
+filename="Photo.png"
+if ".png" in filename:
+    print("Image accepted")
+# Answer=The specific text that prints is "Image accepted"[cite: 5].
+
+
+# Question 26
+# What is the final integer result of the bitwise AND expression 5 & 3?
+print(5 & 3)
+# Answer=The final integer result is 1[cite: 6].
+
+
+# Question 27
+# How does the bitwise XOR operator (^) set bits, and what is the output of 5 ^ 3?
+print(5 ^ 3)
+# Answer=The bitwise XOR operator sets a bit to 1 if the bits are different, and the output is 6[cite: 6].
+
+
+# Question 28
+# What is the mathematical expansion and final result of the left shift operation 5 << 3?
+a=5
+print(a<<3)
+# Answer=The mathematical expansion is 5 x(2x2x2)[cite: 7]. This outputs a final result of 40.
+
+
+# Question 29
+# Based on the right shift operations formula, how is 20 >> 2 mathematically expanded?
+b=20
+print(b>>2)
+# Answer=It is mathematically expanded as 20/(2x2)[cite: 7].
+
+
+# Question 30
+# According to the assignment operators table, what is the equivalent expression for x //= 3?
+# Answer=The equivalent expression is x = x // 3[cite: 8].
