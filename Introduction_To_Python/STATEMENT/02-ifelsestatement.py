@@ -1,5 +1,5 @@
 # If-Else statement use to check the condition of a code,Its can give the results True or False,If the result is True then give a special statement and if condilions output is False then it also give a constatement.
-# SYNTAX OF IF STATEMENT
+# SYNTAX OF IFELSE STATEMENT
 #if condition:
 #   Statements for True.
 #else:
