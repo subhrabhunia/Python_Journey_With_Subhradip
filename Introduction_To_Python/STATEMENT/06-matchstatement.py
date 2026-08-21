@@ -86,3 +86,61 @@ match Month:
     case _:
         print("Enter Correct Month")
 
+
+#Match list
+list=[10,20]
+match list:
+    case[10,20]:
+        print("Both Number found")
+    case[10]:
+        print("Only first number found")
+    case[20]:
+        print("Only second number found")
+    case _:
+        print("No number found")
+
+#Match tuple
+tuple=(5,8)
+match tuple:
+    case(0,0):
+        print("Origin")
+    case(0,y):
+        print("Y axis:",y)
+    case(x,0):
+        print("X Axis:",x)
+    case _:
+        print("Unknown Tuple")
+
+
+#Dictionary match
+student={
+    "Name":"Subhradip",
+    "Age":21
+}
+match student:
+    case{"Name":Name,"Age":Age}:
+        print(Name)
+        print(Age)
+    case _:
+        print("Invalid data")
+
+
+#if statement
+Age_1=float(input("Enter your age:"))
+match Age_1:
+    case x if x<=13:
+        print("child")
+    case x if x <=20:
+        print("Teenger")
+    case x if x <=60:
+        print("Adult")
+    case _:
+        print("Senior Citizen")
+
+#Wild card
+point=(10,20)
+match point:
+    case(_,20):
+        print("Second Value is 20")
+    case _:
+        print("No match")
