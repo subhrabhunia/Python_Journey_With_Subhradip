@@ -1,4 +1,4 @@
-#SYNTAX OF NESTED STATEMENT
+#SYNTAX OF NESTED IF STATEMENT
 # if Condition1:
 #     Statements
 #    if Condition2:
