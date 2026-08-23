@@ -105,3 +105,53 @@ else:
 # Question 20
 # When defining an if block, how does Python know which lines of code belong inside the block?
 # Answer=By the level of indentation.Python strictly enforces indentation (spaces or tabs) to define structural blocks of code.
+
+
+# Question 21
+# In Python's match statement, do cases 'fall through' to the next case automatically?
+# Answer=No, it executes the block and then exits.Python executes only the first matching case and immediately exits the match block without needing a break.
+
+
+# Question 22
+# What is the result of applying float() to the string input() in float(input("Enter Your Age:"))?
+# Answer=It converts the string input into a floating-point number.Because input() always returns a string, wrapping it in float() explicitly casts that string into a decimal number for mathematical comparison.
+
+
+# Question 23
+# Which of the following describes chaining multiple conditions in a single ternary expression?
+# Answer="A" if marks >= 90 else "B" if marks >= 60 else "C".This syntax effectively mimics an if-elif-else chain within a single line using nested ternary operators.
+
+
+# Question 24
+# What is the difference between sequential if statements and an if-elif chain?
+# Answer=If-elif ensures only one block executes; sequential ifs evaluate independently.An if-elif chain stops checking once it finds a True condition, guaranteeing a single path. Sequential ifs check every condition regardless.
+
+
+# Question 25
+# Consider case (0, y):. What kind of structural match is this performing?
+# Answer=Matching a tuple where the first element is exactly 0.The parentheses indicate a tuple. The 0 is a literal check, and y binds to whatever the second element is.
+
+
+# Question 26
+# Why is != used in the conditional if user_Name != "Admin":?
+# Answer=To check if the two values are not equal.The bang-equals (!=) is the standard Python comparison operator for 'not equal to'.
+
+
+# Question 27
+# What is wrong with the code if a = 10: print("Matched")?
+# Answer=It uses an assignment operator instead of equality.A single '=' attempts to assign 10 to 'a', causing a SyntaxError. Conditional checks require '=='.
+
+
+# Question 28
+# When matching case x if x <= 13:, what is x?
+# Answer=A variable binding the matched value.Because 'x' is just a variable name, it catches the input value, and then the guard condition evaluates it.\
+
+
+# Question 29
+# Can you use logical operators like and or or outside of if statements?
+# Answer=Yes, they can evaluate boolean logic anywhere.You can assign the result of logical operators directly to variables or use them in while loops and print statements.
+
+
+# Question 30
+# What is the primary benefit of structural pattern matching over complex if-elif chains?
+# Answer=It improves readability and allows unpacking data structures.Match-case makes complex checks cleaner and can extract variables directly from lists, tuples, and dictionaries.
