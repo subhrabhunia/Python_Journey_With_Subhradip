@@ -59,3 +59,49 @@ if age>=18:
 else:
     print("Minor")
 # Answer="Minor".Since 15 is not greater than or equal to 18, the ternary expression returns the value after 'else'.
+
+
+# Question 12
+# What is the primary purpose of a nested if statement?
+# Answer=To check a condition only if a previous condition is true.Nesting places one conditional inside the block of another, executing only when the outer block's condition is met.
+
+
+# Question 13
+# In the dictionary match case {"Name": Name, "Age": Age}:, what happens to the variables Name and Age?
+# Answer=They are bound to the values found in the dictionary.Pattern matching allows you to unpack data structures and bind their internal elements to new variables.
+
+
+# Question 14
+# What is a 'guard' in a Python match statement?
+# Answer=An if condition attached to a case.A guard provides an additional boolean check that must evaluate to True for the case to succeed.
+
+
+# Question 15
+# What happens if a match statement doesn't have a case _: and no patterns match the input?
+# Answer=Execution silently continues to the next block of code.
+# If no cases match and there is no default wildcard case, the statement acts like a missed if-block and just moves on.
+
+
+# Question 16
+# Evaluate this statement: Result = "Even" if number % 2 else "Odd". What does number % 2 evaluate to when number is 4?
+# Answer=False.4 divided by 2 leaves a remainder of 0. Because 0 is 'falsy', the ternary takes the else path.
+
+
+# Question 17
+# In the expression if (User_Name == "Admin" and Password == 1234):, what does and signify?
+# Answer=Both conditions must be True.The logical 'and' operator strictly requires all operands to evaluate to True for the whole expression to be True.
+
+
+# Question 18
+# If you want to match a tuple but only care about the second value being 20, which pattern is correct?
+# Answer=case (_, 20):.The underscore acts as a wildcard placeholder for exactly one element you want to ignore.
+
+
+# Question 19
+# What does the code list = [10, 20]; match list: case [10]: print("Found") output?
+# Answer=It prints nothing.The pattern [10] does not structurally match [10, 20], and with no default case, execution continues silently.
+
+
+# Question 20
+# When defining an if block, how does Python know which lines of code belong inside the block?
+# Answer=By the level of indentation.Python strictly enforces indentation (spaces or tabs) to define structural blocks of code.
