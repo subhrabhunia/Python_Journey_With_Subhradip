@@ -49,3 +49,13 @@ print(a==b)
 # Question 10
 # How do you match multiple patterns in a single case statement (e.g., matching weekend days)?
 # Answer=case 6 | 7:.The single pipe (|) acts as an OR operator within structural pattern matching.
+
+
+# Question 11
+# Consider age = 15. What is the result of Status = "Adult" if age >= 18 else "Minor"?
+age=15
+if age>=18:
+    print("Adult")
+else:
+    print("Minor")
+# Answer="Minor".Since 15 is not greater than or equal to 18, the ternary expression returns the value after 'else'.

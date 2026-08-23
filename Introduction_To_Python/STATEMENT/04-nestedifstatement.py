@@ -1,4 +1,4 @@
-#SYNTAX OF IF ELIF STATEMENT
+#SYNTAX OF NESTED STATEMENT
 # if Condition1:
 #     Statements
 #    if Condition2:
