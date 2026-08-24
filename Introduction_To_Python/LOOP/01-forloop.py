@@ -56,3 +56,21 @@ for indexes,character in enumerate(y):
     print(indexes,":",character) 
 
 #zip method
+phone_brand=["VIVO","REALME","REDMI","IPHONE"]
+rate=[35000,40000,45000,50000]
+for brand,rates in zip(phone_brand,rate):
+    print(brand,"Rate is:",rates)      #Its working when two key have same number values.
+
+#Range Example
+for i in range(5):
+    print(i)
+
+for j in range(2,15):
+    print(j)  #Its started print from 2
+
+for k in range(2,15,2):   #Start point end point step
+    print(k)  #Itsw step 2.
+
+for l in range (10,0,-1):
+    print(l)   #Its working in reverse
+
