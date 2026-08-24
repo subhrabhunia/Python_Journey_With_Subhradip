@@ -35,3 +35,24 @@ for girl in Girls:
 subject="Python"
 for letter in subject:
     print(letter)
+
+#Dictionary Example
+student={
+    "Name":"Subhradip",
+    "Age": 22,
+    "Course":"Python"
+}
+for key,value in student.items():
+    print(key,":",value)
+
+#Enumerate Function
+students=["Ram","Sita","Lakshman","Riya"]   #Print index number.It also working with tuple list.
+for index,students in enumerate(students):
+    print(index,":",students)
+
+#Enumereate with string
+y="FULL StACK"
+for indexes,character in enumerate(y):
+    print(indexes,":",character) 
+
+#zip method
