@@ -74,3 +74,25 @@ for k in range(2,15,2):   #Start point end point step
 for l in range (10,0,-1):
     print(l)   #Its working in reverse
 
+#even check
+for num in range(1,11):
+    if num%2==0:
+        print(num)
+
+#odd check
+for nums in range(1,11):
+    if nums%2!=0:
+        print(nums)
+
+#Multiplication Table
+for number in range (1,11):
+    print("2 x",number,"=",2*number)
+
+for numbers in range (1,11):
+    print(f"3 X {numbers} = {3*numbers}")
+
+#or else statement
+for Number in range(1,6):
+    print(Number)
+else:
+    print("Loop Completed.")
