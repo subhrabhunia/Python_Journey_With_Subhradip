@@ -43,14 +43,14 @@ for c in range(1, roww + 1):
 
 #Left Triangle Pattern:4
 row = 5
-for C in range(row + 1):
+for C in range(row,0, -1):
 
     # For spaces
-    for D in range(row - A):
+    for D in range(row - C):
         print(" ", end=" ")
 
     # For number
-    for B in range(1,A+1):
-        print(B, end=" ")
+    for B in range(C):
+        print("*", end=" ")
 
     print()
