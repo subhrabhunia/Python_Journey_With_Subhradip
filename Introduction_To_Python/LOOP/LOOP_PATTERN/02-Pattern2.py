@@ -11,3 +11,10 @@ for A in range(5,0,-1):
         print(B, end=" ")
 
     print()
+
+#Rverse(Inverted) Right angle pattern:3
+for c in range(5,0,-1):
+    for d in range(c):
+        print(c, end=" ")
+
+    print()
