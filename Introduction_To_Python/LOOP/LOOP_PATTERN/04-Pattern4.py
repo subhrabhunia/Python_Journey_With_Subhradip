@@ -7,3 +7,19 @@ for a in range(row):
         else:
          print(" ",end=" ")
     print()
+
+
+#Pyramid Pattern
+roww = 5
+
+for A in range(roww):
+
+    # For spaces
+    for C in range(roww - A - 1):
+        print(" ", end=" ")
+
+    # For stars
+    for B in range(2 * A + 1):
+        print("*", end=" ")
+
+    print()
