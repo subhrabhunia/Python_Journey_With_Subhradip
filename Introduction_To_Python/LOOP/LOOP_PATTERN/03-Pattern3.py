@@ -54,3 +54,31 @@ for C in range(row,0, -1):
         print("*", end=" ")
 
     print()
+
+#Left Triangle Pattern:5
+row = 5
+for f in range(row,0, -1):
+
+    # For spaces
+    for g in range(row - f):
+        print(" ", end=" ")
+
+    # For number
+    for h in range(1,f+1):
+        print(h, end=" ")
+
+    print()
+
+#Left Triangle Pattern:4
+row = 5
+for F in range(row,0, -1):
+
+    # For spaces
+    for G in range(row - F):
+        print(" ", end=" ")
+
+    # For number
+    for H in range(1,1+F):
+        print(F, end=" ")
+
+    print()
