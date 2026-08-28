@@ -43,3 +43,16 @@ for d in range(row):
             print(" ", end=" ")
 
     print()
+
+#X pattern
+rows = 7
+
+for i in range(rows):
+    for j in range(rows):
+
+        if j == i or j+i == rows - 1:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+
+    print()
