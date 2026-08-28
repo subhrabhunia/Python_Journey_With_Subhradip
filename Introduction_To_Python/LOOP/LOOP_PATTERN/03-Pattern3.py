@@ -26,3 +26,31 @@ for A in range(1, row + 1):
         print(B, end=" ")
 
     print()
+
+#Left Triangle Pattern:3
+roww = 5
+for c in range(1, roww + 1):
+
+    # For spaces
+    for d in range(roww - c):
+        print(" ", end=" ")
+
+    # For number
+    for e in range(1,c+1):
+        print(c, end=" ")
+
+    print()
+
+#Left Triangle Pattern:4
+row = 5
+for C in range(row + 1):
+
+    # For spaces
+    for D in range(row - A):
+        print(" ", end=" ")
+
+    # For number
+    for B in range(1,A+1):
+        print(B, end=" ")
+
+    print()
