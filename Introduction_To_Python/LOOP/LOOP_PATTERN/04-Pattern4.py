@@ -23,3 +23,23 @@ for A in range(roww):
         print("*", end=" ")
 
     print()
+
+# Hollow Pyramid
+
+row = 5
+
+for d in range(row):
+
+    # For spaces
+    for e in range(row - d - 1):
+        print(" ", end=" ")
+
+    # For stars
+    for f in range(2 * d + 1):
+
+        if f == 0 or f == 2 * d or d == row - 1:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+
+    print()
