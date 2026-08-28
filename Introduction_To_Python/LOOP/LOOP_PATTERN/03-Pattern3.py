@@ -69,7 +69,7 @@ for f in range(row,0, -1):
 
     print()
 
-#Left Triangle Pattern:4
+#Left Triangle Pattern:6
 row = 5
 for F in range(row,0, -1):
 
@@ -80,5 +80,19 @@ for F in range(row,0, -1):
     # For number
     for H in range(1,1+F):
         print(F, end=" ")
+
+    print()
+
+#Left Triangle Pattern:7
+row = 5
+for i in range(row,0, -1):
+
+    # For spaces
+    for j in range(0,row - i):
+        print(" ", end=" ")
+
+    # For number
+    for k in range(i,0,-1):
+        print(k, end=" ")
 
     print()
