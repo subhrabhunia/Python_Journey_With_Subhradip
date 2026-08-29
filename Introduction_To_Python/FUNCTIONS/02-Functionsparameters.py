@@ -44,3 +44,27 @@ first=float(input("Enter First Number:"))
 second=float(input("Enter Second Number:"))
 division(first,second)
 print("_____________________")
+
+#keyword argument
+def hello(Firstname,Lastname,age,city):
+    print("Hello",Firstname,Lastname,age,city)
+hello("Subhradip","Bhunia",city="kolkata",age=20)
+print("_____________________")
+
+
+# / — Positional-only arguments
+# Arguments before / must be passed by position.
+# * — Keyword-only arguments
+def student(name, age, /):
+    print(name, age)
+
+student("Rahul", 20)       # ✅
+student(name="Rahul", age=20)  # ❌
+
+# * — Keyword-only arguments
+# Arguments after * must be passed using their names.
+def student(name, *, age):
+    print(name, age)
+
+student("Rahul", age=20)   # ✅
+student("Rahul", 20)       # ❌
