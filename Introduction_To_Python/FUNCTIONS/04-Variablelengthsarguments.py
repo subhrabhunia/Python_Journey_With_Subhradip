@@ -32,3 +32,13 @@ def total(*all_numbers):
 print(total(10,20,30))
 print(total(40,50,60))
 print(total(70,80,90))
+
+
+#String argument
+def student(*names):
+    print("Student list:")
+
+    for name in names:
+        print(name)
+
+student("Rahul", "Riya", "Amit", "Ankita")
