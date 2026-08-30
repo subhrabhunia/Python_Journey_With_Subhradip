@@ -22,8 +22,10 @@ def total(numbers):
         results += num
 
     return results
-
-
+def percentage(allmarks):
+    per=(total(allmarks)/400)*100
+    return per
 marks = [20, 50, 40, 30]
 
 print(total(marks))
+print(percentage(marks),"%")
