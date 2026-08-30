@@ -1,5 +1,5 @@
 # def sum(*args):
-#     Code Statement.  *Star meanslength arguments and args or any other name work as Tuple.Accept any  number of positional arguments.
+#     Code Statement.  *Star meanslength arguments and args or any other name work as Tuple.Accept any  number of positional arguments. in star argument we set multiple value.
 
 #example
 def num (*args):
