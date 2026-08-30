@@ -44,3 +44,26 @@ display(
     age=20,
     city="Kolkata"
 )
+#Normal arguments
+def demo(name, age, *skill, **details):
+    print("Name:", name)
+    print("Age:", age)
+
+    print("Skills:")
+    for s in skill:
+        print(s)
+
+    print("Details:")
+    for key, value in details.items():
+        print(key, ":", value)
+
+
+demo(
+    "Soumya",
+    20,
+    "Python",
+    "HTML",
+    "CSS",
+    city="Kolkata",
+    college="Adamas University"
+)
