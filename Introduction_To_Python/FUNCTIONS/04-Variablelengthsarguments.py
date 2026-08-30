@@ -42,3 +42,12 @@ def student(*names):
         print(name)
 
 student("Rahul", "Riya", "Amit", "Ankita")
+
+#pass normal argument
+def students(message,*name):
+    print("Students list:")
+
+    for nam in name:
+        print(nam)
+
+student("Hello","Rahul", "Riya", "Amit", "Ankita")
