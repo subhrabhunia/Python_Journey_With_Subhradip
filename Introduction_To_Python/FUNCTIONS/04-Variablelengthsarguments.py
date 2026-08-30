@@ -21,3 +21,14 @@ def number(*tests):
     for numb in tests:
         print(numb)
 number(10,20,30)
+
+#Sum of all numbers
+def total(*all_numbers):
+    result=0
+    for numbe in all_numbers:
+        result+=numbe
+    return result
+
+print(total(10,20,30))
+print(total(40,50,60))
+print(total(70,80,90))
