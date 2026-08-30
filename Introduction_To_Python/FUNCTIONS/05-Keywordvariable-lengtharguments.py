@@ -1,6 +1,6 @@
 #def demo(**args):
 #    code statement.    Its works as a dictionary.its accept any number of keyword arguments.** means keyword arguments
-
+#Normal → Default → *args → Keyword-only → **kwargs
 # Basic example
 def student(**keywordargs):
     print(keywordargs)
