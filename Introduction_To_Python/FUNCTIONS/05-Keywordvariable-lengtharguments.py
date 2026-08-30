@@ -19,3 +19,28 @@ def students_Name(**keyargs):
     for key, value in keyargs.items():
         print(key, ":", value)
 students_Name(name="Subhraip", age=20, city="Kolkata")
+
+# Positional Argument
+
+def display(*args, **kwargs):
+    print("Positional Argument:")
+
+    for value in args:
+        print(value)
+
+    print()
+
+    print("Keyword Argument:")
+
+    for key, value in kwargs.items():
+        print(key, ":", value)
+
+
+display(
+    10,
+    20,
+    30,
+    name="Soumya",
+    age=20,
+    city="Kolkata"
+)
