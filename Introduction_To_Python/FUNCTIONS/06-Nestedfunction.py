@@ -13,3 +13,19 @@ def outer():
 
     inner()
 outer()
+
+#Calculator
+def calculator(a,b):
+    def add():
+        return a+b
+    def substract():
+            return a-b
+    def multiplication():
+            return a*b
+    def divide():
+            return a%b
+    print("Addition:",add())
+    print("Substraction:",substract())
+    print("Multiplication:",multiplication())
+    print("Divition:",divide())
+calculator(20,5)
