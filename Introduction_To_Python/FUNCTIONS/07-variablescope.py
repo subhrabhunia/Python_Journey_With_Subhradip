@@ -45,3 +45,13 @@ def display():
 
 display()
 print(count)
+
+#Enclosing functiom
+def outer():
+    number=10
+    def inner():
+        nonlocal number
+        number=number+1
+        print(number)
+    inner()
+outer()
