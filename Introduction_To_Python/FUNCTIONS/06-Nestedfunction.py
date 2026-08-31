@@ -8,8 +8,12 @@
 #Basic Example
 def outer():
     print("Inside Outer Function")
+
+    message="welcome"
+    
     def inner():
         print("Inside Inner Function")
+        print(message) #We can print this in inner function.
 
     inner()
 outer()
