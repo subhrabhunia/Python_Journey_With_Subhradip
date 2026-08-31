@@ -20,3 +20,11 @@
 #     inner()
 
 # outer()
+# z → Local
+# y → Enclosing
+# x → Global
+# len() → Built-in
+# Local     → Current function
+# Enclosing → Outer function
+# Global    → Whole program
+# Built-in  → Python's predefined names
