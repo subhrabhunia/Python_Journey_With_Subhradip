@@ -27,4 +27,11 @@
 # Local     → Current function
 # Enclosing → Outer function
 # Global    → Whole program
-# Built-in  → Python's predefined names
+# Built-in  → Python's predefined names  
+
+#Local Variable 
+def greet():
+    message="Hello"
+    print(message)
+
+greet()
