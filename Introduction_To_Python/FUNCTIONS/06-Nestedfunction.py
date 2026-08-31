@@ -29,3 +29,15 @@ def calculator(a,b):
     print("Multiplication:",multiplication())
     print("Divition:",divide())
 calculator(20,5)
+
+#Login System
+def login(username,password):
+      def validate():
+            return username=="admin" and password=="1234"
+      if validate():
+            print("Login Sucessful")
+      else:
+            print("Invalid Credentials")
+username=input("Enter UserName:")
+password=input("Enter Password:")
+login(username,password)
