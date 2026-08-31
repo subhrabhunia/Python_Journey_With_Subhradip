@@ -55,3 +55,14 @@ def outer():
         print(number)
     inner()
 outer()
+
+# Built-in Scope
+
+def demo():
+    numbers = [10, 20, 30, 40]
+
+    print(len(numbers))
+    print(sum(numbers))
+    print(max(numbers))
+
+demo()
