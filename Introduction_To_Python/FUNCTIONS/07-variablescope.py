@@ -35,3 +35,13 @@ def greet():
     print(message)
 
 greet()
+
+#Global variable
+count=10
+def display():
+    global count
+    count=count+1
+    print(count)
+
+display()
+print(count)
