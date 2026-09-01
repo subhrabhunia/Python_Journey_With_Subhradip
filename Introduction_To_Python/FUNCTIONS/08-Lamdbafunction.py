@@ -37,3 +37,13 @@ print(result)  # Output: [1, 4, 9, 16, 25]
 
 results=map(lambda x:x**3,numbers)  #map is a built-in function that applies a given function to all items in an iterable (like a list) and returns a map object (which is an iterator).
 print(list(results))  # Output: [1, 8, 27, 64, 125]   
+
+
+#filter() function is used to filter the given iterable (list, tuple, etc.) with the help of a function that tests each element in the iterable to be true or not.
+#Filter even numbers from a list using lambda function using filter() function  
+num=[1,2,3,4,5,6,7,8,9,10]
+even_numbers=list(filter(lambda x:x%2==0,num))  #filter is a built-in function that constructs an iterator from elements of an iterable for which a function returns true.
+print(even_numbers)  # Output: [2, 4, 6, 8, 10]
+
+odd_numbers=filter(lambda x:x%2!=0,num)   #filter is a built-in function that constructs an iterator from elements of an iterable for which a function returns true.
+print(list(odd_numbers))  # Output: [1, 3, 5, 7, 9] 
