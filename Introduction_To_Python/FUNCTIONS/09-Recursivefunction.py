@@ -30,3 +30,10 @@ def factorial(n):
         return 1
     return n * factorial(n-1)  # Recursive call with modified parameter
 print("Factorial of 5 is:", factorial(5))  # Output: Factorial of 5 is: 120
+
+#reverse a string using recursion
+def reverse_string(s):
+    if len(s) == 0:  # Base case to stop recursion
+        return ""
+    return reverse_string(s[1:])+s[0] # Recursive call with modified parameter
+print("Reverse of 'hello' is:", reverse_string("hello"))  # Output: Reverse of 'hello' is: olleh    
