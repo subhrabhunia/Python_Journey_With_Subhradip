@@ -24,3 +24,8 @@ print(square(5))
 cube=lambda y:y**3 #(y*y*y)
 print(cube(2))
 print(cube(3))
+
+#Maximum of two numbers
+maximum=lambda a,b:a if a>b else b
+print(maximum(10,20))
+print(maximum(30,20))
