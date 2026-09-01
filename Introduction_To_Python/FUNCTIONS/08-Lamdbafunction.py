@@ -29,3 +29,11 @@ print(cube(3))
 maximum=lambda a,b:a if a>b else b
 print(maximum(10,20))
 print(maximum(30,20))
+
+#Square every number in a list using lambda function using map() function
+numbers=[1,2,3,4,5]
+result=list(map(lambda x:x**2,numbers))  #map is a built-in function that applies a given function to all items in an iterable (like a list) and returns a map object (which is an iterator).
+print(result)  # Output: [1, 4, 9, 16, 25]  
+
+results=map(lambda x:x**3,numbers)  #map is a built-in function that applies a given function to all items in an iterable (like a list) and returns a map object (which is an iterator).
+print(list(results))  # Output: [1, 8, 27, 64, 125]   
