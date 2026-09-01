@@ -14,3 +14,13 @@
 sum=lambda a,b:a+b
 print (sum(10,20)) 
 print (sum(13,20)) 
+
+#Square
+square=lambda x:x*x  #(x**2)
+print(square(4))
+print(square(5))
+
+#Cube
+cube=lambda y:y**3 #(y*y*y)
+print(cube(2))
+print(cube(3))
