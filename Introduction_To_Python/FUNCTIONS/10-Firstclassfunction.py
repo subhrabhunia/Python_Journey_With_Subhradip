@@ -55,3 +55,8 @@ print(type(items))  # Output: <class 'tuple'>
 print(items)  # Output: (<function square at 0x7f8c8c8c8c10>, <function cube at 0x7f8c8c8c8ca0>)
 
 #Function as an argument to another function
+def gree():
+    print("Hello from gree function")
+def greet_user(func):
+    func()  #Calling the function passed as an argument
+greet_user(gree)  #Passing function as an argument to another function  
