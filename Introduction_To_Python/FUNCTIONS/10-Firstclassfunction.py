@@ -12,3 +12,13 @@ def greet():
 message=greet  #Assigning function to a variable
 message()  #Calling function using variable 
 print(type(message))  # Output: <class 'function'>  
+
+a=greet  #Assigning function to another variable
+b=greet  #Assigning function to another variable
+c=greet  #Assigning function to another variable
+a()  #Calling function using variable a
+b()  #Calling function using variable b
+c()  #Calling function using variable c
+
+
+#Stores funtion in a list
