@@ -76,4 +76,4 @@ def calculator(a,b,operation):
 print("Addition:",calculator(10,5,add))  #Passing function as an argument to another function
 print("Subtraction:",calculator(10,5,sub))  #Passing function as an argument to another function
 print("Multiplication:",calculator(10,5,mul))  #Passing function as an argument to another function
-print("Division:",calculator(10,5,div))  #Passing function as an argument to another function
+print("Division:",calculator(10,5,div))  #Passing function as an argument to another function 
