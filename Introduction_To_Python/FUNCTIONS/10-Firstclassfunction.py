@@ -42,3 +42,16 @@ operations_dict={"divide":divide,"mod":mod}  #Storing functions in a dictionary
 operations_dict["divide"]()  #Calling function from the dictionary  
 operations_dict["mod"]()  #Calling function from the dictionary 
 print(type(operations_dict))  # Output: <class 'dict'>
+
+#Function inside tuple
+def square():
+    print("Square")
+def cube():
+    print("Cube")
+items=(square,cube)  #Storing functions in a tuple
+items[0]()  #Calling function from the tuple
+items[1]()  #Calling function from the tuple
+print(type(items))  # Output: <class 'tuple'>
+print(items)  # Output: (<function square at 0x7f8c8c8c8c10>, <function cube at 0x7f8c8c8c8ca0>)
+
+#Function as an argument to another function
