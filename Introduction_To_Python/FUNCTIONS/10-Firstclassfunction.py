@@ -32,3 +32,13 @@ operations=[add,sub,mul]  #Storing functions in a list
 for operation in operations:
     operation()  #Calling functions from the list
 print(type(operations))  # Output: <class 'list'>
+
+#Store function in a dictionary
+def divide():
+    print("Division")
+def mod():
+    print("Modulus")
+operations_dict={"divide":divide,"mod":mod}  #Storing functions in a dictionary
+operations_dict["divide"]()  #Calling function from the dictionary  
+operations_dict["mod"]()  #Calling function from the dictionary 
+print(type(operations_dict))  # Output: <class 'dict'>
