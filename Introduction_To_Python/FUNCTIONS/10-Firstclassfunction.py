@@ -60,3 +60,20 @@ def gree():
 def greet_user(func):
     func()  #Calling the function passed as an argument
 greet_user(gree)  #Passing function as an argument to another function  
+
+
+#Calculator using first class function
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return a-b
+def mul(a,b):
+    return a*b
+def div(a,b):
+    return a/b
+def calculator(a,b,operation):
+    return operation(a,b)  #Returning the result of the operation
+print("Addition:",calculator(10,5,add))  #Passing function as an argument to another function
+print("Subtraction:",calculator(10,5,sub))  #Passing function as an argument to another function
+print("Multiplication:",calculator(10,5,mul))  #Passing function as an argument to another function
+print("Division:",calculator(10,5,div))  #Passing function as an argument to another function
