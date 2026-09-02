@@ -22,3 +22,13 @@ c()  #Calling function using variable c
 
 
 #Stores funtion in a list
+def add():
+    print("Addition")
+def sub():
+    print("Subtraction")
+def mul():
+    print("Multiplication")
+operations=[add,sub,mul]  #Storing functions in a list
+for operation in operations:
+    operation()  #Calling functions from the list
+print(type(operations))  # Output: <class 'list'>
