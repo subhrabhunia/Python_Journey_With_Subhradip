@@ -20,3 +20,10 @@ print(list(results))  # Output: ['ALICE', 'BOB', 'CHARLIE']
 words = ['apple', 'banana', 'cherry']
 lengths = map(len, words)
 print(list(lengths))  # Output: [5, 6, 6]
+
+#Calculate GST of products in a list using map() function
+prices = [100, 200, 300]
+def add_gst(price):
+    return price + (price * 0.18)
+gst_prices = map(add_gst, prices)
+print(list(gst_prices))  # Output: [118.0, 236.0, 354.0]    
