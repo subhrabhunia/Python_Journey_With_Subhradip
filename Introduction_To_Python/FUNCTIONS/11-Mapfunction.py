@@ -15,3 +15,8 @@ print(list(result))  # Output: [1, 4, 9, 16, 25]
 names = ['alice', 'bob', 'charlie']
 results=map(str.upper,names)
 print(list(results))  # Output: ['ALICE', 'BOB', 'CHARLIE']
+
+#Find the length of each word in a list using map() function
+words = ['apple', 'banana', 'cherry']
+lengths = map(len, words)
+print(list(lengths))  # Output: [5, 6, 6]
