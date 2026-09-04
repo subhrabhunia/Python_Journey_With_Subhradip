@@ -6,6 +6,10 @@
 # 4.stored inside lista or dictionaries
 # 5.Assigned to multiple variables
 
+
+#HIGH ORDER FUNCTIONS: A higher-order function is a function that takes one or more functions as arguments and/or returns a function as its result. In Python, functions are first-class citizens, meaning they can be treated like any other object. This allows us to create higher-order functions that can operate on other functions.
+
+
 #Example
 def greet():
     print("Hello")
