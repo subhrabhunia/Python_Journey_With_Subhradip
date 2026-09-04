@@ -27,3 +27,7 @@ def add_gst(price):
     return price + (price * 0.18)
 gst_prices = map(add_gst, prices)
 print(list(gst_prices))  # Output: [118.0, 236.0, 354.0]    
+#Using lambda function with map() function
+number = [1, 2, 3, 4, 5]
+squared_numbers = map(lambda x: x**2, number)
+print(list(squared_numbers))  # Output: [1, 4, 9, 16, 25]   
