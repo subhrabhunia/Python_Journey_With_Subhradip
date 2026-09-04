@@ -10,3 +10,8 @@ def square(x):
     return x*x
 result = map(square, numbers)
 print(list(result))  # Output: [1, 4, 9, 16, 25]
+
+#Convert names in a list to uppercase using map() function
+names = ['alice', 'bob', 'charlie']
+results=map(str.upper,names)
+print(list(results))  # Output: ['ALICE', 'BOB', 'CHARLIE']
