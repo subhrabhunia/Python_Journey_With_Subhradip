@@ -26,8 +26,16 @@ prices = [100, 200, 300]
 def add_gst(price):
     return price + (price * 0.18)
 gst_prices = map(add_gst, prices)
-print(list(gst_prices))  # Output: [118.0, 236.0, 354.0]    
+print(list(gst_prices))  # Output: [118.0, 236.0, 354.0]  
+
+
 #Using lambda function with map() function
 number = [1, 2, 3, 4, 5]
 squared_numbers = map(lambda x: x**2, number)
 print(list(squared_numbers))  # Output: [1, 4, 9, 16, 25]   
+
+#Pass Multiple Iterables to map() function
+price=[100, 200, 300]
+gst=[18,12,5]
+resultt=map(lambda x,y:x+(x*y/100),price,gst)
+print(list(resultt))  # Output: [118.0, 224.0, 315.0]
