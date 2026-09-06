@@ -16,3 +16,9 @@ def is_even(num):
     return num % 2 == 0
 even_numbers = filter(is_even, numbers)
 print(list(even_numbers))  # Output: [2, 4, 6, 8, 10]
+
+#Not even numbers using filter() function
+def is_not_even(num):
+    return num % 2 != 0
+odd_numbers = filter(is_not_even, numbers)
+print(list(odd_numbers))  # Output: [1, 3, 5, 7, 9]
