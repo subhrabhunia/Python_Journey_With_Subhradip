@@ -22,3 +22,8 @@ def is_not_even(num):
     return num % 2 != 0
 odd_numbers = filter(is_not_even, numbers)
 print(list(odd_numbers))  # Output: [1, 3, 5, 7, 9]
+
+#Adult ages using filter() function
+ages = [12, 17, 19, 24, 30, 15, 18]
+results = filter(lambda age: age >= 18, ages)
+print(list(results))  # Output: [19, 24, 30, 18]
