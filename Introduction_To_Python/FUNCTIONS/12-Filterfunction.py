@@ -10,3 +10,9 @@
 # | **Number of output elements** | Same as input                     | Same or fewer than input         |
 # | **Common use cases**          | Convert, calculate, format        | Search, validate, remove, filter |
 
+#Basic Example of filter() function
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+def is_even(num):
+    return num % 2 == 0
+even_numbers = filter(is_even, numbers)
+print(list(even_numbers))  # Output: [2, 4, 6, 8, 10]
