@@ -34,3 +34,17 @@ person2=greeting("Bob")
 person1()  # Output: Hello, Alice!
 person2()  # Output: Hello, Bob!
 
+#coumter example of closure function
+def counter():
+    count=0
+    def increment():
+        nonlocal count   #nonlocal keyword is used to access the variable of outer function in inner function.  
+        count+=1
+        print(count)
+    return increment
+counter1=counter()
+counter1()  # Output: 1
+counter1()  # Output: 2
+counter1()  # Output: 3
+
+
