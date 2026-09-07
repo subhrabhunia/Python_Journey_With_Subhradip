@@ -48,3 +48,13 @@ counter1()  # Output: 2
 counter1()  # Output: 3
 
 
+#Multiple closure functions example
+def multiple_by(x):
+    def multiply(y):
+        return x * y
+    return multiply
+double = multiple_by(2)  #this will create a closure function that multiplies by 2  
+triple = multiple_by(3)
+
+print(double(5))  # Output: 10 
+print(triple(5))  # Output: 15
