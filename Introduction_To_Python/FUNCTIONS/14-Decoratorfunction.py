@@ -94,3 +94,21 @@ def hello(name):
 
 
 hello("Subhradip")
+
+#Generic Reusable decorater
+def decorator(function):
+    def wrapper(*args,**kwargs):
+        print("Starting....")
+        result = function(*args,**kwargs)
+        print("Finished")
+        return result
+
+    return wrapper
+
+
+@decorator
+def add(a, b):
+    return a + b
+
+
+print(add(10, 20))
