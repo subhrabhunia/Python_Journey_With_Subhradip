@@ -45,3 +45,9 @@ email=[
 ]
 answer=filter(lambda x: "@" in x, email)
 print(list(answer))  # Output: ['subhradip9971@gmail.com', 'soumya@gmail.com']
+
+#Employee eligable for bonus using filter() function
+salaries = [25000, 30000, 40000, 50000, 60000]
+eligible_for_bonus = filter(lambda salary: salary >= 40000, salaries)
+bonus=map(lambda salary: salary +5000, eligible_for_bonus)
+print(list(bonus))  # Output: [45000, 55000, 65000]
