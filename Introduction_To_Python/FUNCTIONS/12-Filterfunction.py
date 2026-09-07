@@ -34,3 +34,14 @@ word=["Cat","Dog","Elephant","Lion","Tiger"]
 results = filter(lambda x: len(x) > 3, word)
 print(list(results))  # Output: ['Elephant', 'Lion', 'Tiger']  
 
+
+#Real Example of filter() function
+# Suppose we have a list of dictionaries representing people, and we want to filter out only the adults (age 18 and above) from that list.
+email=[
+    "subhradip9971@gmail.com",
+    "rahul",
+    "soumya@gmail.com",
+    "hello"
+]
+answer=filter(lambda x: "@" in x, email)
+print(list(answer))  # Output: ['subhradip9971@gmail.com', 'soumya@gmail.com']
