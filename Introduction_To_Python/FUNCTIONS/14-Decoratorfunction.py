@@ -132,3 +132,37 @@ def dashboard():
 
 
 dashboard()
+
+
+#Use Multiple decorator
+
+def star(func):
+    def wrapper():
+        print("************")
+        func()
+        print("************")
+    return wrapper
+
+
+def decorator1(func):
+    def wrapper():
+        print("Decorator 1")
+        func()
+    return wrapper
+
+
+def decorator2(func):
+    def wrapper():
+        print("Decorator 2")
+        func()
+    return wrapper
+
+
+@star
+@decorator1
+@decorator2
+def hello():
+    print("Hello")
+
+
+hello()
