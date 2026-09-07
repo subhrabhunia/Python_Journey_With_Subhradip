@@ -48,3 +48,32 @@
 # 3.Check Permission
 # 4.Calculate execution time
 
+#Basic Example
+def decorator(func):
+    def wrapper():
+         print("Before")
+         func()
+         print("After")
+    
+    return wrapper
+
+
+@decorator
+def hello():
+     print("Hello World")
+
+hello()
+
+#Second method
+def decorators(function):
+    def wrappers():
+         print("Before")
+         function()
+         print("After")
+    
+    return wrappers
+
+def hello():
+     print("Hello Worlds")
+test=decorators(hello)
+test()
