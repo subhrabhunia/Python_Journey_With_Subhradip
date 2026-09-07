@@ -27,3 +27,10 @@ print(list(odd_numbers))  # Output: [1, 3, 5, 7, 9]
 ages = [12, 17, 19, 24, 30, 15, 18]
 results = filter(lambda age: age >= 18, ages)
 print(list(results))  # Output: [19, 24, 30, 18]
+
+
+#String Example
+word=["Cat","Dog","Elephant","Lion","Tiger"]
+results = filter(lambda x: len(x) > 3, word)
+print(list(results))  # Output: ['Elephant', 'Lion', 'Tiger']  
+
