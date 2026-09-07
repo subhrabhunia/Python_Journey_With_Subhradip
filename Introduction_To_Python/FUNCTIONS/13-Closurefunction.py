@@ -23,3 +23,14 @@ def outer_function():
     return inner_function
 test_closure = outer_function()
 test_closure()  # Output: Hello, World!
+
+#Closure function with parameters
+def greeting(name):
+    def say_hello():
+        print(f"Hello, {name}!")
+    return say_hello
+person1= greeting("Alice")
+person2=greeting("Bob")
+person1()  # Output: Hello, Alice!
+person2()  # Output: Hello, Bob!
+
