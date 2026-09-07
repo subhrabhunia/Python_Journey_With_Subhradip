@@ -77,3 +77,20 @@ def hello():
      print("Hello Worlds")
 test=decorators(hello)
 test()
+
+#Decorator with arguments
+def decorator1(functions):
+    def wrapper(name):
+        print("Before")
+        functions(name)
+        print("After")
+
+    return wrapper
+
+
+@decorator1
+def hello(name):
+    print(f"Hello {name}")
+
+
+hello("Subhradip")
