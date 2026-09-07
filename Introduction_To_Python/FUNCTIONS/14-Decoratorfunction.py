@@ -112,3 +112,23 @@ def add(a, b):
 
 
 print(add(10, 20))
+
+#Login check decorator
+def login_required(func):
+    def wrapper():
+        logged_in = True  
+
+        if logged_in:
+            func()
+        else:
+            print("Please login first")
+
+    return wrapper
+
+
+@login_required
+def dashboard():
+    print("Welcome to Dashboard")
+
+
+dashboard()
