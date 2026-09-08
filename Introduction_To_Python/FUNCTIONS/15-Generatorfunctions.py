@@ -47,3 +47,11 @@ print("*****************")
 print("*****************")
 print("*****************")
 print(next(generators))
+
+#Generator in  for loop
+def games():
+    yield "Cricket"
+    yield "Football"
+    yield "Hocky"
+for i in games():
+    print(i)
