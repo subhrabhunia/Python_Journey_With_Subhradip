@@ -25,5 +25,25 @@ def string_value():
     yield "Shayam"
 generator=string_value()
 print(next(generator))
+print("*****************")
+print("*****************")
 print(next(generator))
+print("*****************")
+print("*****************")
+print("*****************")
 print(next(generator))
+
+#Don't print first two value print last value
+def fruits():
+    yield "Apple"
+    yield "Banana"
+    yield "Grapes"
+generators=fruits()
+next(generators)
+print("*****************")
+print("*****************")
+next(generators)
+print("*****************")
+print("*****************")
+print("*****************")
+print(next(generators))
