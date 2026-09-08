@@ -17,3 +17,13 @@ g=numbers()
 print(next(g))
 print(next(g))
 print(next(g))
+
+#Example with string 
+def string_value():
+    yield "Soumya"
+    yield "Ram"
+    yield "Shayam"
+generator=string_value()
+print(next(generator))
+print(next(generator))
+print(next(generator))
