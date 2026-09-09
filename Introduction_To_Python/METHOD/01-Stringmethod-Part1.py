@@ -90,3 +90,11 @@ print(names.lstrip())
 
 # Right strip
 print(names.rstrip())
+
+#split method
+data = "10-20-30-40"
+list="python programming language"
+language="python java html css javascript"
+print(data.split("-"))
+print(list.split())
+print(language.split(" ",3))
