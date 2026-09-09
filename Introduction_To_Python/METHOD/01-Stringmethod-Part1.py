@@ -58,3 +58,10 @@ print(words.count("a"))
 print(words.count("p"))
 print(words.count("o",1))
 print(words.count("a",1,3))
+
+#Startswith method
+print(words.startswith("python"))
+print(words.startswith("Python"))
+print(words.startswith("programing", 7))
+
+#Reallife use of Startswith method
