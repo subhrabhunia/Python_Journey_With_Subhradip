@@ -98,3 +98,23 @@ language="python java html css javascript"
 print(data.split("-"))
 print(list.split())
 print(language.split(" ",3))
+
+#join method
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+
+result = ", ".join(fruits)
+
+print(result)
+
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+
+print("-".join(fruits))
+
+#Replace method
+words = "I like Apple"
+
+print(words.replace("Apple", "Mango"))
+
+fruits = "Apple Apple Mango Apple"
+
+print(fruits.replace("Apple", "Banana", 2))
