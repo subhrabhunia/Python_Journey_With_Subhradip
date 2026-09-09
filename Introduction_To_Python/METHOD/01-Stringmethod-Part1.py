@@ -78,3 +78,15 @@ else:
 
 
 # Strip method
+names = "\n\tSubhradip Bhunia##"
+
+print(names)
+
+print(names.strip())
+print(names.strip("#"))
+
+# Left strip
+print(names.lstrip())
+
+# Right strip
+print(names.rstrip())
