@@ -45,3 +45,10 @@ print(answer)
 name="subhradip Bhunia"
 correct_name=name.title()
 print(correct_name)
+
+#Find Method
+words="python programing language"
+print(words.find("python"))
+print(words.find("Python")) #No value find
+print(words.rfind("g"))
+print(words.rfind("o",5))
