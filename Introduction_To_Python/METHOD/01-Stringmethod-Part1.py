@@ -35,3 +35,13 @@ print(result)
 texts="HELLO WORLD"
 results=texts.lower()
 print(results)
+
+#Upper method
+word="hello world"
+answer=word.upper()
+print(answer)
+
+# Title method
+name="subhradip Bhunia"
+correct_name=name.title()
+print(correct_name)
