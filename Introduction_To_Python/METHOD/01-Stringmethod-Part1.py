@@ -25,3 +25,13 @@ for x in a:
 
 #length method
 print(len(a))
+
+#Capitilized method
+text="hello world"
+result=text.capitalize()
+print(result)
+
+#Lower method
+texts="HELLO WORLD"
+results=texts.lower()
+print(results)
