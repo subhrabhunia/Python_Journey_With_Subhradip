@@ -52,3 +52,9 @@ print(words.find("python"))
 print(words.find("Python")) #No value find
 print(words.rfind("g"))
 print(words.rfind("o",5))
+
+#Count MEthod
+print(words.count("a"))
+print(words.count("p"))
+print(words.count("o",1))
+print(words.count("a",1,3))
