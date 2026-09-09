@@ -65,3 +65,16 @@ print(words.startswith("Python"))
 print(words.startswith("programing", 7))
 
 #Reallife use of Startswith method
+url="https://google.com"
+if url.startswith(("https://","htpps")):
+    print("Valid Url")
+else:
+    print("Invalid Url")
+#endswith
+if url.endswith(".com"):
+    print("Valid Url")
+else:
+    print("Invalid Url")
+
+
+# Strip method
