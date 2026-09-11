@@ -40,3 +40,24 @@ print(text.ljust(20,"_"))  #add  space in right side
 #rjust method
 print(text.rjust(20,"_"))  #add space in left side
 
+#zfill method
+number="25"
+print(number.zfill(5)) #add 0 in number
+
+#formating method
+name="Subhradip"
+age=22
+print("My Name Is {}, My Age Is {}".format(name,age))  
+print("My Name Is {1}, My Age Is {0}".format(name,age))  #sequence change
+print("|{:^10}|".format("python"))
+print("|{:<10}|".format("python"))
+print("|{:>10}|".format("python"))
+
+#formatmap method
+student={
+    "names":"John",
+    "age":22,
+    "city":"Kolkata"
+}
+result="My Name is {names} and my age is {age} and I lived in{city}"
+print(result.format_map(student))
