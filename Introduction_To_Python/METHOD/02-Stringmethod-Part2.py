@@ -22,3 +22,14 @@ print("SubhraDip".islower())
 #isupper method
 print("Subhradip".isupper()) #its check is all alphabet in upper case
 print("SUBHRADIP".isupper())
+
+#isspace method
+print("Subhradip".isspace())    #check the space
+print(" ".isspace())
+print(" Subhradip ".isspace())
+print("\n".isspace())
+
+#center method
+text="python"
+print(text.center(20))  #Add space in alpabet
+print(text.center(20,"*"))  #If we want to add special character.
