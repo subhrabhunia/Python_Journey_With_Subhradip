@@ -33,3 +33,10 @@ print("\n".isspace())
 text="python"
 print(text.center(20))  #Add space in alpabet
 print(text.center(20,"*"))  #If we want to add special character.
+
+#ljust method
+print(text.ljust(20,"_"))  #add  space in right side
+
+#rjust method
+print(text.rjust(20,"_"))  #add space in left side
+
