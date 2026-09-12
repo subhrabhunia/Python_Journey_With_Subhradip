@@ -67,3 +67,11 @@
 # · ord()
 
 # · complex()
+
+
+#int function(Converts a value into an integer.)
+x = "100"
+y = int(x)
+
+print(y)
+print(type(y))
