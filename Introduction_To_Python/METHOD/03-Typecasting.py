@@ -89,3 +89,15 @@ y = str(x)
 
 print(y)
 print(type(y))
+
+#bool function(Converts a value into Boolean (True or False).)
+print(bool(1))
+print(bool(0))
+print(bool("Hello"))
+print(bool(""))
+
+#list function(Converts an iterable into a list.)
+x = "Python"
+y = list(x)
+
+print(y)
