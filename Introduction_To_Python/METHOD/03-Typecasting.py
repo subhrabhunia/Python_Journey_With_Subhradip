@@ -75,3 +75,17 @@ y = int(x)
 
 print(y)
 print(type(y))
+
+#float function(Converts a value into a floating-point number.)
+x = "10.5"
+y = float(x)
+
+print(y)
+print(type(y))
+
+#str function(Converts a value into a string.)
+x = 100
+y = str(x)
+
+print(y)
+print(type(y))
