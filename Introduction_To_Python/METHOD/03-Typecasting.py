@@ -143,3 +143,13 @@ print(ord("a"))
 
 # chr() → Number → Character
 # ord() → Character → Number
+
+#complex function(Converts a value into a complex number.)
+x = complex(5)
+
+print(x)
+
+#Another example
+x = complex(2, 3)
+
+print(x)
