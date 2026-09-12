@@ -132,3 +132,14 @@ print(y)
 x = "5 * 4"
 
 print(eval(x))
+
+#char function(Converts an Unicode number into a character.)
+print(chr(65))
+print(chr(97))
+
+#ord function(Converts a character into its Unicode number.)
+print(ord("A"))
+print(ord("a"))
+
+# chr() → Number → Character
+# ord() → Character → Number
