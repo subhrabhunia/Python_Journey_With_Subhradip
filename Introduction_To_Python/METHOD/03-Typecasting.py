@@ -114,3 +114,21 @@ y = set(x)
 
 print(y)
 
+#dict function(Creates a dictionary from key-value pairs.)
+x = [("name", "Subhradip"), ("age", 21)]
+
+y = dict(x)
+
+print(y)
+
+#eval Function(Evaluates a string as a Python expression.)
+x = "10 + 20"
+
+y = eval(x)
+
+print(y)
+
+# Another example
+x = "5 * 4"
+
+print(eval(x))
