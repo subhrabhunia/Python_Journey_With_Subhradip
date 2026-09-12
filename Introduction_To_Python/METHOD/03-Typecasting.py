@@ -101,3 +101,16 @@ x = "Python"
 y = list(x)
 
 print(y)
+
+#tuple function(Converts an iterable into a tuple.)
+x = [1, 2, 3]
+y = tuple(x)
+
+print(y)
+
+#set function(Converts an iterable into a set.Duplicate values are removed.)
+x = [1, 2, 2, 3, 3]
+y = set(x)
+
+print(y)
+
