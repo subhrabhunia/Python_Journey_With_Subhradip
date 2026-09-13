@@ -136,6 +136,8 @@ print(eval(x))
 #char function(Converts an Unicode number into a character.)
 print(chr(65))
 print(chr(97))
+for i in range(65,91):
+    print(chr(i),end=" ")
 
 #ord function(Converts a character into its Unicode number.)
 print(ord("A"))
