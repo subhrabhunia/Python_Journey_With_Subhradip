@@ -16,3 +16,13 @@ print(Tuple_Squares)
 Dict_Numbers=[1,2,3,4,5]
 Square_Dict={Dict:Dict*Dict for Dict in Dict_Numbers}
 print(Square_Dict)
+
+#Dictionary With String
+Students=["Amit","Rahul","Priya"]
+length={Student:len(Student) for Student in Students}
+print(length)
+
+#Words Count in List
+words=["apple","banana","apple","orange","banana","apple"]
+frequency={word:words.count(word) for word in set(words)}
+print(frequency)
