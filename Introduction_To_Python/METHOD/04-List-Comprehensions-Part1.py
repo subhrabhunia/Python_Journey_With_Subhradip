@@ -21,3 +21,12 @@
 numbers=[1,2,3,4,5]
 squares=[num**2 for num in numbers]
 print(squares)
+
+#List convetator to Upper case
+names=["amit","rahul","soumya"]
+upper=[name.upper() for name in names]
+print(upper)
+
+#Find Length of list
+length=[len(name) for name in names]
+print(length)
