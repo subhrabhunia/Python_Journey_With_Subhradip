@@ -7,3 +7,12 @@ print(unique)
 Numbers=[1,2,3,4,5]
 Squares={n**2 for n in Numbers}
 print(Squares)
+
+#Tuple Squares
+Tuple_Squares=tuple(x*x for x in range(5))
+print(Tuple_Squares)
+
+#Dictionary Comprehensions
+Dict_Numbers=[1,2,3,4,5]
+Square_Dict={Dict:Dict*Dict for Dict in Dict_Numbers}
+print(Square_Dict)
