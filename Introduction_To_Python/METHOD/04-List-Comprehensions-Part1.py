@@ -30,3 +30,10 @@ print(upper)
 #Find Length of list
 length=[len(name) for name in names]
 print(length)
+
+#List Comprehensions with if statement
+All_Numbers=[1,2,3,4,5,6,7,8]
+Even_Numbers=[even for even in All_Numbers if even%2==0]
+Odd_Numbers=[odd for odd in All_Numbers if odd%2!=0]
+print(Even_Numbers)
+print(Odd_Numbers)
