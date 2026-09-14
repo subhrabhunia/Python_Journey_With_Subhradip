@@ -47,3 +47,17 @@ print(Digits)
 Numbers=range(1,11)
 Result=[Even**2 for Even in Numbers if Even%2==0]
 print(Result)
+
+#If-Else 
+Marks=[20,30,40,50,60,70,80,90]
+Status=["Pass" if mark>=60 else "Fail" for mark in Marks]
+print(Status)
+
+#Nested List Comprehensions
+Matrix=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+flat=[row for row in Matrix for Num in  row]
+print(flat)
