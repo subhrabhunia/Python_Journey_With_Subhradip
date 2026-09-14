@@ -37,3 +37,13 @@ Even_Numbers=[even for even in All_Numbers if even%2==0]
 Odd_Numbers=[odd for odd in All_Numbers if odd%2!=0]
 print(Even_Numbers)
 print(Odd_Numbers)
+
+#Extract Digits Filter
+text="A1B2C3D4"
+Digits=[ch for ch in text if ch.isdigit()]
+print(Digits)
+
+#Square of even numbers
+Numbers=range(1,11)
+Result=[Even**2 for Even in Numbers if Even%2==0]
+print(Result)
