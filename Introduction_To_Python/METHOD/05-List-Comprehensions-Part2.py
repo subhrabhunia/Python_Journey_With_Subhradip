@@ -26,3 +26,21 @@ print(length)
 words=["apple","banana","apple","orange","banana","apple"]
 frequency={word:words.count(word) for word in set(words)}
 print(frequency)
+
+#Student Grade System
+students = [
+ ('Ravi',85), ('Tahil', 92), ('Priya', 78),
+ ('Sonam', 95), ('Rahul', 88)
+]
+grade_book={
+    name:'A'
+    if score>=90 else'B'
+    if score>=80 else'C'
+    for name,score in students
+}
+print(grade_book)
+
+#Generator comprehension
+gen=(n*n for n in range(5))
+print(gen)
+print(list(gen))
