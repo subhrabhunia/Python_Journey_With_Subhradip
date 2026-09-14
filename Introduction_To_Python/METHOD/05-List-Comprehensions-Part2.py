@@ -44,3 +44,17 @@ print(grade_book)
 gen=(n*n for n in range(5))
 print(gen)
 print(list(gen))
+
+#Even Numbers only in Gen
+Evens_Numbers=(n for n in range (1,21) if n%2==0)
+for num in Evens_Numbers:
+    print(num)
+
+#String in Gen 
+Names=["Amit","Rahul","Priya"]
+Upper=(Name.upper() for Name in Names)
+
+# print(list(Upper))
+
+for Name in Upper:
+    print(Name)
