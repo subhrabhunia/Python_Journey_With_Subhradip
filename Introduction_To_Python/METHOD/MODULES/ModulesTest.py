@@ -6,3 +6,11 @@ def add(a,b):
 
 def sub(a,b):
     return a-b
+
+test="python course"
+
+Person={
+    "name":"Subhradip",
+    "age":21,
+    "city":"Kolkata"
+}

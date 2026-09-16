@@ -561,3 +561,9 @@ ModulesTest.greeting("Subhradip")
 
 print(ModulesTest.add(30,20))
 print(ModulesTest.sub(30,20))
+
+print(ModulesTest.test)
+
+print(ModulesTest.Person['name'])
+print(ModulesTest.Person['age'])
+print(ModulesTest.Person['city'])
