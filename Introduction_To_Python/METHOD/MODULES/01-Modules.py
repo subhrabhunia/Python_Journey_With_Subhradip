@@ -557,5 +557,7 @@
 
 #Basic Example
 import ModulesTest
-
 ModulesTest.greeting("Subhradip")
+
+print(ModulesTest.add(30,20))
+print(ModulesTest.sub(30,20))
