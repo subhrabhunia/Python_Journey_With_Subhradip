@@ -591,3 +591,9 @@ print(add(3,20))
 from ModulesTest import sub,Person
 print(sub(10,5))
 print(Person['name'])
+
+#Import Everything
+from ModulesTest import*
+print(add(30,20))
+print(sub(30,20))
+greeting("Subhradip")
