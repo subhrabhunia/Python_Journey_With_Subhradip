@@ -567,3 +567,17 @@ print(ModulesTest.test)
 print(ModulesTest.Person['name'])
 print(ModulesTest.Person['age'])
 print(ModulesTest.Person['city'])
+
+#alias
+import ModulesTest as M
+M.greeting("Subhradip")
+
+print(M.add(30,20))
+print(M.sub(30,20))
+
+print(M.test)
+
+print(M.Person['name'])
+print(M.Person['age'])
+print(M.Person['city'])
+
