@@ -581,3 +581,13 @@ print(M.Person['name'])
 print(M.Person['age'])
 print(M.Person['city'])
 
+#from module
+from ModulesTest import greeting
+greeting("Soumya")
+
+from ModulesTest import add
+print(add(3,20))
+
+from ModulesTest import sub,Person
+print(sub(10,5))
+print(Person['name'])
