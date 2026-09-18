@@ -264,8 +264,28 @@
 # 3.Close
 
 #Basic Example to read file
-file=open("D:\Demo_Python\Python_Journey_With_Subhradip\Introduction_To_Python\Python.txt","r")
+# Basic Example to read file
+
+file = open("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\Python.txt", "r")
+
 print(file.read())
-# content=file.read(8) to read character
+
+# content = file.read(8)     # Read first 8 characters
 # print(content)
+
+file.close()
+
+# Basic Example to read file using readline()
+
+file = open("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\Python.txt", "r")
+
+# Read one line
+print(file.readline(), end="")
+
+print(file.readline(), end="")
+
+print(file.readline(), end="")
+
+print(file.readline(), end="")
+
 file.close()
