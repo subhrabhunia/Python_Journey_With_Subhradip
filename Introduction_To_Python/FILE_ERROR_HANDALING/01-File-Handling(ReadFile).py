@@ -305,3 +305,16 @@ file.close()
 # read(n) → Reads n characters.
 # readline() → Reads one line.
 # readlines() → Reads all lines and returns them as a list
+
+# Basic Example to read file using readlines()
+
+file = open("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\Python.txt", "r")
+
+# Read all lines
+content = file.readlines()
+
+for line in content:
+#    print(line, end="")
+    print(line.strip())
+
+file.close()
