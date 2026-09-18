@@ -262,3 +262,10 @@
 # ```
 # 2.Read → f.read()
 # 3.Close
+
+#Basic Example to read file
+file=open("D:\Demo_Python\Python_Journey_With_Subhradip\Introduction_To_Python\Python.txt","r")
+print(file.read())
+# content=file.read(8) to read character
+# print(content)
+file.close()
