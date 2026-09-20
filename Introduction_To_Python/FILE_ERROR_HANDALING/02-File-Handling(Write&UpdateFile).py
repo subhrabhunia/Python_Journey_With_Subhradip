@@ -28,4 +28,14 @@ file.write("\nHtml")
 file.seek(0)
 print(file.read())
 
+#Append and Read mode
+file = open("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\File.txt", "a+")
+file.write("\nJava")
+file.seek(0)
+print(file.read())
+
+#create mode x
+file = open("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\New.txt", "x")  #To create a new file
+file.write("Html\n")
+file.write("Java\n")
 file.close()
