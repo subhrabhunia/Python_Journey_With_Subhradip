@@ -21,4 +21,11 @@ file.write("Riya")
 file = open("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\File.txt", "r+")
 print(file.read())
 file.write("\nPython")
+
+#Write and Read Mode
+file = open("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\File.txt", "w+")
+file.write("\nHtml")
+file.seek(0)
+print(file.read())
+
 file.close()
