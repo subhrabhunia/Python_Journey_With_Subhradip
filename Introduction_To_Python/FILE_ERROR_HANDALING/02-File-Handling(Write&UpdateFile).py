@@ -13,4 +13,8 @@ names=[
 ]
 file.writelines(names)
 
+#Append Mode
+file = open("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\File.txt", "a")
+file.write("Riya")
+
 file.close()
