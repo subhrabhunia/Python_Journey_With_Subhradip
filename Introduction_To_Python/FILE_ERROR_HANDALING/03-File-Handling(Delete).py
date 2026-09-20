@@ -53,3 +53,8 @@
 # * `os.path.exists()` → Checks whether a file or folder exists.
 
 # **Note:** `os.remove()` deletes the specified file.
+
+#Remove File
+import os
+os.remove("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\New.txt")
+
