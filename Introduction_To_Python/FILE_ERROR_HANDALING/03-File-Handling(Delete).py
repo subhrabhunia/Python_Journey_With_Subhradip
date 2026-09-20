@@ -54,7 +54,18 @@
 
 # **Note:** `os.remove()` deletes the specified file.
 
-#Remove File
-import os
-os.remove("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\New.txt")
+# Remove File
 
+import os
+
+#os.remove("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\New.txt")
+
+if os.path.exists("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\Test.txt"):
+
+    os.remove("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\Test.txt")
+
+    print("File Deleted")
+
+else:
+
+    print("File not Found")
