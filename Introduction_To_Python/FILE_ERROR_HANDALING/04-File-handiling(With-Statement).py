@@ -14,7 +14,7 @@ print("Total Lines:", count)
 with open("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\File.txt", "w") as file:
     file.write("RAM\n")
     file.write("Shayam\n")
-    file.write("Jodhu")
+    file.write("Jodhu\n")
 print("File Written Successfully.")
 
 #Append File-Notes as a application
