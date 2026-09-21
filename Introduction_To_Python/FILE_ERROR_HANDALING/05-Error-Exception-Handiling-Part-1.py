@@ -500,3 +500,175 @@ try:
 
 except:
     print("Please enter a valid number")
+
+# Catching a Specific Exception
+
+# In Python, we can catch a **specific exception** by writing the exception name after the `except` keyword.
+
+# This allows us to handle different errors in different ways.
+
+# ## Syntax
+
+# ```python
+# try:
+#     # Code that may cause an error
+
+# except ExceptionName:
+#     # Code to handle the specific exception
+# ```
+
+# ## Example
+
+# ```python
+# try:
+#     number = int(input("Enter a number: "))
+
+#     result = 10 / number
+
+#     print(result)
+
+# except ZeroDivisionError:
+#     print("Cannot divide by zero")
+
+# except ValueError:
+#     print("Please enter a valid number")
+# ```
+
+# ### Output 1
+
+# If the user enters:
+
+# ```text
+# 0
+# ```
+
+# Output:
+
+# ```text
+# Cannot divide by zero
+# ```
+
+# ### Output 2
+
+# If the user enters:
+
+# ```text
+# abc
+# ```
+
+# Output:
+
+# ```text
+# Please enter a valid number
+# ```
+
+# ### Output 3
+
+# If the user enters:
+
+# ```text
+# 2
+# ```
+
+# Output:
+
+# ```text
+# 5.0
+# ```
+
+# ## Important
+
+# * `ZeroDivisionError` → Handles division by zero.
+# * `ValueError` → Handles invalid values.
+# * Multiple `except` blocks can be used for different exceptions.
+# * Catching specific exceptions makes the program easier to understand and debug.
+try:
+    number = int(input("Enter a number: "))
+
+    print(10 / number)
+
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+
+except ValueError:
+    print("Invalid input")
+
+# Python : Exception Object (`as` Keyword)
+
+# The `as` keyword is used with `except` to store the **exception object** in a variable.
+
+# This allows us to access the **error message/details** of the exception.
+
+# ## Syntax
+
+# ```python
+# try:
+#     # Code that may cause an error
+
+# except Exception as e:
+#     print(e)
+# ```
+
+# Here:
+
+# * `Exception` → Type of exception.
+# * `as e` → Stores the exception object in variable `e`.
+# * `e` → Can be used to display the error message.
+
+# ## Example
+
+# ```python
+# try:
+#     print(10 / 0)
+
+# except ZeroDivisionError as e:
+#     print("Error:", e)
+# ```
+
+# ### Output
+
+# ```text
+# Error: division by zero
+# ```
+
+# ## Another Example
+
+# ```python
+# try:
+#     number = int("abc")
+
+# except ValueError as e:
+#     print("Error:", e)
+# ```
+
+# ### Output
+
+# ```text
+# Error: invalid literal for int() with base 10: 'abc'
+# ```
+
+# ## Important Note
+
+# ```python
+# except ZeroDivisionError as e:
+# ```
+
+# Here `e` contains the **exception object**, which provides information about what went wrong.
+
+# ### Short Form
+
+# ```python
+# try:
+#     print(10 / 0)
+
+# except Exception as e:
+#     print(e)
+# ```
+
+# **`as` → Used to give a variable name to the exception object.**
+
+try:
+    print(10 / 0)
+
+except ZeroDivisionError as e:
+    print("Error:", e)
