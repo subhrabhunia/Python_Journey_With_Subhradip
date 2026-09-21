@@ -391,3 +391,112 @@
 # | `NotImplementedError` | Feature/method not implemented |
 # | `UnicodeEncodeError`  | Unicode encoding failed        |
 # | `UnicodeDecodeError`  | Unicode decoding failed        |
+
+
+# # Python : try-except
+
+# The `try-except` statement is used to **handle errors (exceptions)** in Python.
+
+# ## Basic Example
+
+# ```python
+# try:
+#     print(10 / 0)
+
+# except:
+#     print("An error occurred")
+# ```
+
+# ### Output
+
+# ```text
+# An error occurred
+# ```
+
+# ## Example with Specific Exception
+
+# ```python
+# try:
+#     number = int(input("Enter a number: "))
+#     print(10 / number)
+
+# except ZeroDivisionError:
+#     print("Cannot divide by zero")
+
+# except ValueError:
+#     print("Please enter a valid number")
+# ```
+
+# ### Example Output 1
+
+# If the user enters:
+
+# ```text
+# 0
+# ```
+
+# Output:
+
+# ```text
+# Cannot divide by zero
+# ```
+
+# ### Example Output 2
+
+# If the user enters:
+
+# ```text
+# abc
+# ```
+
+# Output:
+
+# ```text
+# Please enter a valid number
+# ```
+
+# ### Example Output 3
+
+# If the user enters:
+
+# ```text
+# 2
+# ```
+
+# Output:
+
+# ```text
+# 5.0
+# ```
+
+# ## Syntax
+
+# ```python
+# try:
+#     # Code that may cause an error
+
+# except:
+#     # Code executed when an error occurs
+# ```
+
+# ### Important
+
+# * `try` → Contains code that may cause an exception.
+# * `except` → Handles the exception.
+# * Using a **specific exception** such as `ZeroDivisionError` or `ValueError` is generally better than using a bare `except`.
+
+try:
+    a = 10
+    b = 0
+
+    print(a / b)
+
+except:
+    print("Cannot divide by zero")
+
+try:
+    number = int(input("Enter a number: "))
+    print(number)
+
+except:
+    print("Please enter a valid number")
