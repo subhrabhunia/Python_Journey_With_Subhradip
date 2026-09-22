@@ -101,3 +101,34 @@ else:
 
 finally:
     print("Program completed")
+
+# Raising Exception - Voting System
+
+try:
+    age = int(input("Enter your age: "))
+
+    if age < 18:
+        raise ValueError("You are not eligible to vote")
+
+    print("You are eligible to vote")
+
+except ValueError as e:
+    print("Error:", e)
+
+#User login Example
+# User Login Example
+
+try:
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+
+    if username != "admin":
+        raise ValueError("Invalid username")
+
+    if password != "12345":
+        raise ValueError("Invalid password")
+
+    print("Login Successful")
+
+except ValueError as e:
+    print("Error:", e)
