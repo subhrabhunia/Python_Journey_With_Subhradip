@@ -68,3 +68,36 @@ except ValueError:
 
 else:
     print("You entered:", number)
+
+#Finaly block example
+try:
+    number = int(input("Enter a number: "))
+
+    result = 10 / number
+
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+
+except ValueError:
+    print("Invalid input")
+
+else:
+    print("Result:", result)
+
+finally:
+    print("Program completed")
+
+#File Handaling Example
+try:
+    file = open("D:\\Demo_Python\\Python_Journey_With_Subhradip\\Introduction_To_Python\\FILE_ERROR_HANDALING\\Test.txt", "r")
+
+except FileNotFoundError:
+    print("File not found")
+
+else:
+    print("File opened successfully")
+    print(file.read())
+    file.close()
+
+finally:
+    print("Program completed")
