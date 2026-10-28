@@ -4,6 +4,7 @@ i=0
 while i<len(nums):
     if nums[i]==x:
         print("Number",x,"found at index",i)
+        break
     else:
         print("Finding number",x,"in the tuple...")
     i+=1
