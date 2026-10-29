@@ -3,3 +3,9 @@ index=0
 while index<len(nums):
     print(nums[index])
     index+=1
+
+
+
+#Using for loop
+for num in nums:
+    print(num)
