@@ -1,0 +1,15 @@
+OOPS Full Form:- Object Oriennted Programming.This is a coding methodology/style/pattern.
+
+Importance of OOPS:-
+1. Code more Modular and Reusable.
+2.Well Organized Code.
+3.Easier to debug.
+4.Best for medium to large projects.
+
+The working frameworks of oops:-
+1.Django
+2.Pyramid
+3.CherryPy
+4.Zope
+5.TurboGears
+6.PyQt
